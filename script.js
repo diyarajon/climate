@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openTab(evt, cityName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("city");
     for (i = 0; i < x.length; i++) {
@@ -10,4 +10,4 @@ function openCity(evt, cityName) {
     }
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " w3-red";
-}
+  }
