@@ -14,7 +14,6 @@ body{
 
 p{
     font-family: 'Muli', sans-serif;
-    background: white;
 }
 
 .tab {
@@ -62,7 +61,7 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: #002868;
     color: white;
     text-align: center;
  }
