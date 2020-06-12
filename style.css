@@ -1,6 +1,13 @@
 body{
     background-color: brown;
     font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Muli', sans-serif;
+    color: aqua;
 }
 
 .tab {
