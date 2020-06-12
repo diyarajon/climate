@@ -3,7 +3,12 @@ body{
     text-align: center;
     padding-top: 40px;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    background: linear-gradient(0deg, #83DECE, rgb(28, 76, 167));
+    background: #83DECE;
+    color: #002868;
+}
+
+.heading h1{
+    text-shadow: #1B826F;
 }
 
 
@@ -14,7 +19,7 @@ p{
 
 .tab {
     overflow: hidden;
-    background-color: #fff000;
+    background-color: white;
 }
 
 /* Style the buttons inside the tab */
@@ -26,11 +31,14 @@ p{
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.9s;
+    color: #002868;
+    background-color: white;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ed1b00;
+    background-color: #002868;
+    color: white;
      background-image: url("....");
 }
 
