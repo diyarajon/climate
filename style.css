@@ -19,13 +19,12 @@ p{
 
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: inherit;
-    float: left;
+    font-family: 'Rubik Mono One', sans-serif;
+    border: 0;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.9s;
-    font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
