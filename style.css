@@ -4,6 +4,7 @@ body{
     text-align: center;
     padding-top: 40px;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    background: linear-gradient(0deg, #83DECE, rgb(28, 76, 167));
 }
 
 
