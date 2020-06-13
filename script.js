@@ -11,3 +11,11 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " w3-red";
   }
+
+
+  window.addEventListener('scroll', function(){
+    const parallax = document.querySelector('.parallax');
+    let scrollPosition = window.pageYOffset;
+
+    parallax.style.transform = 'translateY(' + scrollPosition* .5 +'px)';
+  });
